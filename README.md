@@ -1,9 +1,11 @@
 # term_project
 A program that reads information about hundreds of publications and finds the most frequent ten words.
 
-## txt files
-publicationDataSet: File with information about publications.
-stopWords: File with words that should not be included in sorting.
+## publicationDataSet
+File with information about publications.
+
+## stopWords 
+File with words that should not be included in sorting.
 
 ## commands
 
