@@ -1,8 +1,8 @@
 
-output = output
+output = words
 
 ${output}: main.cpp
-	@g++ main.cpp -o output
+	@g++ main.cpp -o words
 	@echo "[PROGRAM CREATED!]"
 
 clean:

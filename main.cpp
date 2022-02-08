@@ -13,7 +13,7 @@ int main() {
             int stopIndex = 0;
             getline(stopData, stopWord);
             char* tmpStopWord = (char*)calloc(30, sizeof(char));
-            while (stopIndex < stopWord.length()) {
+            while (stopIndex < stopWord.length()-1) {
                 tmpStopWord[stopIndex] = stopWord[stopIndex];
                 stopIndex++;
             }
